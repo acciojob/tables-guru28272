@@ -1,2 +1,34 @@
 
 /* Your CSS Code here. */
+table{
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 32px;
+    width: 60vw;
+}
+th{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    text-align: left;
+}
+td{
+    text-align: left;
+    
+}
+tr{
+    border-bottom: gray;
+}
+.row-1,.row-2{
+    border-bottom: 1px solid rgb(204, 202, 202);
+}
+.row-3{
+    border-bottom: 1px solid;
+}
+.row-4{
+    background-color: aliceblue;
+    border-bottom: 1px solid rgb(204, 202, 202);
+}
+.r4-3{
+    text-align: right;
+}
